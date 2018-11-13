@@ -44,7 +44,6 @@ class Song
 def self.artist_count
   arists = Hash.new
   @@artists.each do |item|
-    binding.pry
   end
 end
 
